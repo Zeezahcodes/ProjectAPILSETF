@@ -1,7 +1,8 @@
 const express = require ("express")
 const mongoose = require ("mongoose")
 const cors = require ("cors")
-const port = 4100
+//const port = 4100
+port = process.env.PORT||4100
 const app = express();
 const  ONLINE_DB =
 "mongodb+srv://Azeezah_Olatunde:azeezah@cluster0.ll1f9.mongodb.net/pentiqueClothings?retryWrites=true&w=majority"
